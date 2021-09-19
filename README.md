@@ -1,5 +1,5 @@
-### About
-Started off as my first script, and for whatever reason, I decided to release it. As it was pretty badly created, I felt like I should rewrite it and make a better version, so ended up spending a few hours doing so.
+### Fork Info
+Forked created by NAT2K15 to support his [Money System](https://github.com/NAT2K15/fivem-money-system). All credits goes to the orginal author. I have just edited a couple lines to help support my script and removed ESX.
 
 ### Installation
 1) Download the latest version in the "code" tab on GitHub.
