@@ -1,7 +1,7 @@
 Config = {}
 
--- Are you using ESX? Turn this to true if you would like fuel & jerry cans to cost something.
-Config.UseESX = true
+-- Are you using NAT2K15 Money System? Turn this to true if you would like fuel & jerry cans to cost something.
+Config.UseMoney = true
 
 -- What should the price of jerry cans be?
 Config.JerryCanCost = 100
