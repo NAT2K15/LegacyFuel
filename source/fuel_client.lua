@@ -74,7 +74,7 @@ Citizen.CreateThread(function()
 			isNearPump = pumpObject
 			if Config.UseMoney then
 				local account = exports.money:getclientaccount(GetPlayerServerId(PlayerId()))
-				currentCash = account.amount
+				currentCash = account.bank
 			end
 		else
 			isNearPump = false
@@ -230,7 +230,7 @@ Citizen.CreateThread(function()
 
 								TriggerServerEvent('fuel:pay', Config.JerryCanCost)
 								local account = exports.money:getclientaccount(GetPlayerServerId(PlayerId()))
-								currentCash = tonumber(account.amount)
+								currentCash = tonumber(account.bank)
 							end
 						else
 							if Config.UseMoney then
